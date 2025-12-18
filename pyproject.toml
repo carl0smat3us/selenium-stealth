@@ -1,0 +1,25 @@
+[project]
+name = "selenium-stealth"
+version = "1.0.6"
+description = "Trying to make python selenium more stealthy."
+authors = [
+    {name = "Dipraj Patra", email = "diprajpatra@gmail.com"}
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/diprajpatra/selenium-stealth"
+repository = "https://github.com/diprajpatra/selenium-stealth"
+keywords = ["selenium", "stealth", "webdriver", "automation", "anti-detection"]
+requires-python = ">=3.11,<3.15"
+
+dependencies = [
+    "selenium (>=4.37.0,<5.0.0)"
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+standard-imghdr = "^3.13.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
